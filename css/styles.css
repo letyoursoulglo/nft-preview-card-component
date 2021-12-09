@@ -35,8 +35,9 @@ h1{
   color: var(--White);
   font-family: 'Outfit', sans-serif;
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
 }
+
 
 .container {
   background-color: var(--Very-dark-blue-card);
@@ -83,13 +84,22 @@ img.nft:hover {
   cursor: pointer;
 }
 
+.information {
+  height: 140px;
+  padding-bottom: 0;
+}
+
+.information h1 {
+  padding-bottom: 10px;
+}
+
 
 .info-text {
   color: var(--Soft-blue);
   font-family: 'Outfit', sans-serif;
   font-weight: 300;
   width: 300px;
-
+  padding-bottom: 10px;
 }
 
 .amount {
