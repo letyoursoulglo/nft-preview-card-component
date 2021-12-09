@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-using-html-and-css-Iaiajeqa5)
 - Live Site URL: [NFT Preview Card Site](https://letyoursoulglo.github.io/nft-preview-card-component/)
 
 ## My process
