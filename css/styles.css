@@ -1,0 +1,170 @@
+:root {
+  --Soft-blue: #8bacda;
+  --Cyan: #00fff7;
+  --Very-dark-blue-main: #0d192b;
+  --Very-dark-blue-card: #14253d;
+  --Very-dark-blue-line: #2f415b;
+  --White: 	#ffffff;
+
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Very-dark-blue-main);
+  font-size: 1.125rem;
+  display: grid;
+  place-items: center;
+}
+
+h1{
+  color: var(--White);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.container {
+  background-color: var(--Very-dark-blue-card);
+  width: 350px;
+  height: 600px;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+}
+
+div.images {
+  display: grid;
+  place-items: center;
+  background-color: var(--Cyan);
+  position:relative;
+  order: -1;
+  border-radius: 10px;
+}
+
+img.hover-img {
+  position: absolute;
+  top: 50%;
+  transition: 0.5s ease;
+  opacity: 0;
+  transform: translate(-8%, -60%);
+}
+
+div.images:hover .nft {
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+div.images:hover .hover-img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.nft{
+  width: 300px;
+  border-radius: 10px;
+}
+
+img.nft:hover {
+  cursor: pointer;
+}
+
+
+.info-text {
+  color: var(--Soft-blue);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  width: 300px;
+
+}
+
+.amount {
+  display: flex;
+  align-items: row;
+  width: 100px;
+  position: relative;
+  top: 18px;
+}
+
+.amount p {
+  color: var(--Cyan);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  width: 80px;
+  position: relative;
+  left: 7px;
+}
+
+.days-left {
+  display: flex;
+  align-items: row;
+  width: 99px;
+  position: relative;
+  left: 210px;
+}
+
+.days-left p {
+  color: var(--Soft-blue);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  width: 70px;
+  position: relative;
+  left: 7px;
+}
+
+hr {
+  border-color: var(--Very-dark-blue-line);
+  width: 300px;
+}
+
+a {
+  color: var(--White);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.creator {
+  width:280px;
+  display: flex;
+  align-items: row;
+  position: relative;
+  top: -17px;
+  left: -10px;
+}
+
+.creator-text {
+  color: var(--Soft-blue);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  width: 175px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+
+.creator-avatar {
+  width: 30px;
+  border-radius: 30px;
+  border: solid 1px;
+  border-color: white;
+
+}
