@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [](https://letyoursoulglo.github.io/nft-preview-card-component/)
+- Live Site URL: [NFT Preview Card Site](https://letyoursoulglo.github.io/nft-preview-card-component/)
 
 ## My process
 
